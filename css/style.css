@@ -17,7 +17,7 @@ body {
   font-size: clamp(1.6rem, 2.5vw, 3rem); /* scales text with screen size */
   padding: 1rem;
 }
-//used chat GPT to learn about clamp
+/* used chat GPT to learn about clamp*/
 select,
 input {
   width: clamp(200px, 80%, 350px); /* adjusts width responsively */
