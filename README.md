@@ -18,7 +18,6 @@ Match Em N' Bag Em is an interactive browser-based memory card game built with v
 🎯 **Score Tracking** - Real-time scoreboard updates for all players  
 🔄 **Smart Turn System** - Automatic turn switching in multiplayer mode  
 📱 **Fully Responsive** - Optimized for mobile, tablet, and desktop  
-🎨 **Smooth Animations** - Card flips and match effects  
 ♻️ **Rematch Option** - Quick restart without losing player data  
 
 ## 🛠️ Tech Stack
