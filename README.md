@@ -2,7 +2,7 @@
 
 A multiplayer memory matching card game featuring Arabic letters. Test your memory skills solo or challenge friends by finding matching pairs of cards!
 
-![Game Preview](screenshot-placeholder.png)
+![Game Preview](screenshot.png)
 
 ## 🌐 Live Demo
 
