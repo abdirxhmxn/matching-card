@@ -169,13 +169,10 @@ The game includes breakpoint optimizations for:
 ## 🎨 Screenshots
 
 ### Landing Page
-![Landing Page](screenshot-landing.png)
+![Landing Page](load.png)
 
 ### Game Board
-![Game Board](screenshot-game.png)
-
-### Winner Screen
-![Winner](screenshot-winner.png)
+![Game Board](game.png)
 
 ## 🔮 Future Enhancements
 
@@ -225,9 +222,9 @@ This project is part of a coding bootcamp curriculum and is available for educat
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- GitHub: [abdirxhmxn](https://github.com/abdirxhmxn)
+- LinkedIn: [Abdirahman Mohamed](https://linkedin.com/in/abdirahmanamohamed)
+- Portfolio: [mcdigitalservices.pro](https://mcdigitalservices.pro)
 
 ---
 
