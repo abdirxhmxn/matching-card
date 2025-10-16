@@ -58,15 +58,7 @@ Match Em N' Bag Em is an interactive browser-based memory card game built with v
    ```
 
 3. **Open in browser**
-   - Simply open `index.html` in your browser, or
-   - Use a local server:
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   
-   # Node.js (if you have http-server installed)
-   npx http-server
-   ```
+   - Simply open `index.html` in your browser
 
 ## 🎮 How to Play
 
