@@ -6,7 +6,7 @@ A multiplayer memory matching card game featuring Arabic letters. Test your memo
 
 ## 🌐 Live Demo
 
-**[Play the Game Here](https://abdirxhmxn.github.io/matching-card/)** *(Add your hosted URL)*
+**[Play the Game Here](https://abdirxhmxn.github.io/matching-card/index.html)** *(Add your hosted URL)*
 
 ## 📖 About The Project
 
