@@ -30,14 +30,14 @@ class Game {
         'ث', 'ث', // Tha
         'ج', 'ج', // Jeem
         'ح', 'ح', // Haa
-        'خ', 'خ', // Khaa
+    ];
+    /**
+     *  'خ', 'خ', // Khaa
         'د', 'د', // Dal
         'ذ', 'ذ', // Thal
         'ر', 'ر', // Ra
         'ز', 'ز', // Zay
         'س', 'س', // Seen
-    ];
-    /**
      *  'ش', 'ش', // Sheen
         'ص', 'ص', // Saad
      *  'ض', 'ض', // Daad
@@ -179,7 +179,7 @@ class Game {
 
     switchPlayer() {
         //used chat GPT to debug the logic for knowing when to check for how many players are playing
-        if (player1 && player2 && player3 && player3.name) {
+        if (player1.name && player2.name && player3.name) {
             if (this.currentPlayer === player1) {
                 this.currentPlayer = player2;
             } else if (this.currentPlayer === player2) {
@@ -187,7 +187,7 @@ class Game {
             } else {
                 this.currentPlayer = player1
             }
-        } else if (player1 && player2) {
+        } else if (player1.name && player2.name) {
             if (this.currentPlayer === player1) {
                 this.currentPlayer = player2;
             } else {
@@ -200,11 +200,11 @@ class Game {
 
 
     updateScoreboard() {
-        if (player1 && player2 && player3 && player3.name) {
+        if (player1.name && player2.name && player3.name) {
             this.currentScore1.innerText = `${player1.name}'s score: ${this.player1Score}`;
             this.currentScore2.innerText = `${player2.name}'s score: ${this.player2Score}`;
             this.currentScore3.innerText = `${player3.name}'s score: ${this.player3Score}`;
-        } else if (player1 && player2) {
+        } else if (player1.name && player2.name) {
             this.currentScore1.innerText = `${player1.name}'s score: ${this.player1Score}`;
             this.currentScore2.innerText = `${player2.name}'s score: ${this.player2Score}`;
         }

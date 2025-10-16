@@ -62,7 +62,9 @@ button:hover {
   overflow: hidden;
   margin-top: 1rem;
 }
-
+h4{
+  text-align: center;
+}
 #progress-bar {
   background-color: rgb(47, 157, 252);
   position: absolute;
@@ -114,7 +116,7 @@ button:hover {
   }
 
   button {
-    width: 70%;
+    width: 20%;
   }
 
   #container {

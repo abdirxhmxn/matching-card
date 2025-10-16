@@ -20,25 +20,26 @@ function showResults() {
     }
 }
 function start(p1, p2, p3) {
-    if (p1) {
-        window.open(`game.html?p1=${p1}`, '_self');
+    if (p1 && p2 && p3) {
+        window.open(`game.html?p1=${p1}&p2=${p2}&p3=${p3}`, '_self');
     } else if (p1 && p2) {
         window.open(`game.html?p1=${p1}&p2=${p2}`, '_self');
-    } else if (p1 && p2 && p3) {
-        window.open(`game.html?p1=${p1}&p2=${p2}&p3=${p3}`, '_self');
+    } else {
+        window.open(`game.html?p1=${p1}`, '_self');
     }
 }
 function nextPage() {
     let player1 = document.querySelector('#player-1').value
     let player2 = document.querySelector('#player-2').value
     let player3 = document.querySelector('#player-3').value
-    if (player1) {
-        setTimeout(() => start(player1, player2), 3000)
+    if (player1 && player2 && player3) {
+        setTimeout(() => start(player1, player2, player3), 3000)
+        load.classList.remove('hidden1')
     } else if (player1 && player2) {
         setTimeout(() => start(player1, player2), 3000)
         load.classList.remove('hidden1')
-    } else if (player1 && player2 && player3) {
-        setTimeout(() => start(player1, player2), 3000)
+    } else if (player1) {
+        setTimeout(() => start(player1), 3000)
         load.classList.remove('hidden1')
     } else {
         result.innerText = 'Cannot begin until all players have inserted their names.'
